@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git+ssh:git@github.com:sunergix/fee.git' ]
+2 info using npm@2.1.18
+3 info using node@v0.10.33
+4 silly cache add args [ 'git+ssh:git@github.com:sunergix/fee.git', null ]
+5 verbose cache add spec git+ssh:git@github.com:sunergix/fee.git
+6 silly cache add parsed spec { raw: 'git+ssh:git@github.com:sunergix/fee.git',
+6 silly cache add   scope: null,
+6 silly cache add   name: null,
+6 silly cache add   rawSpec: 'git+ssh:git@github.com:sunergix/fee.git',
+6 silly cache add   spec: 'ssh:git@github.com:sunergix/fee.git',
+6 silly cache add   type: 'git' }
+7 verbose addRemoteGit u="ssh:git@github.com:sunergix/fee.git" silent=false
+8 silly addRemoteGit normalized { url: 'ssh:git@github.com/sunergix/fee.git', branch: 'master' }
+9 silly addRemoteGit v ssh-git-github-com-sunergix-fee-git-744c26f4
+10 verbose addRemoteGit /Users/sadiainam/.npm/_git-remotes/ssh-git-github-com-sunergix-fee-git-744c26f4 not in flight; cloning
+11 info git [ 'clone',
+11 info git   '--template=/Users/sadiainam/.npm/_git-remotes/_templates',
+11 info git   '--mirror',
+11 info git   'ssh:git@github.com/sunergix/fee.git',
+11 info git   '/Users/sadiainam/.npm/_git-remotes/ssh-git-github-com-sunergix-fee-git-744c26f4' ]
+12 error git clone ssh:git@github.com/sunergix/fee.git Cloning into bare repository '/Users/sadiainam/.npm/_git-remotes/ssh-git-github-com-sunergix-fee-git-744c26f4'...
+12 error git clone ssh:git@github.com/sunergix/fee.git ssh: Could not resolve hostname ssh: nodename nor servname provided, or not known
+12 error git clone ssh:git@github.com/sunergix/fee.git fatal: Could not read from remote repository.
+12 error git clone ssh:git@github.com/sunergix/fee.git
+12 error git clone ssh:git@github.com/sunergix/fee.git Please make sure you have the correct access rights
+12 error git clone ssh:git@github.com/sunergix/fee.git and the repository exists.
+13 verbose stack Error: Command failed: Cloning into bare repository '/Users/sadiainam/.npm/_git-remotes/ssh-git-github-com-sunergix-fee-git-744c26f4'...
+13 verbose stack ssh: Could not resolve hostname ssh: nodename nor servname provided, or not known
+13 verbose stack fatal: Could not read from remote repository.
+13 verbose stack
+13 verbose stack Please make sure you have the correct access rights
+13 verbose stack and the repository exists.
+13 verbose stack
+13 verbose stack     at ChildProcess.exithandler (child_process.js:648:15)
+13 verbose stack     at ChildProcess.emit (events.js:98:17)
+13 verbose stack     at maybeClose (child_process.js:756:16)
+13 verbose stack     at Socket.<anonymous> (child_process.js:969:11)
+13 verbose stack     at Socket.emit (events.js:95:17)
+13 verbose stack     at Pipe.close (net.js:465:12)
+14 verbose cwd /Applications/XAMPP/xamppfiles/htdocs/innovate413
+15 error Darwin 14.4.0
+16 error argv "node" "/usr/local/bin/npm" "install" "git+ssh:git@github.com:sunergix/fee.git"
+17 error node v0.10.33
+18 error npm  v2.1.18
+19 error code 128
+20 error Command failed: Cloning into bare repository '/Users/sadiainam/.npm/_git-remotes/ssh-git-github-com-sunergix-fee-git-744c26f4'...
+20 error ssh: Could not resolve hostname ssh: nodename nor servname provided, or not known
+20 error fatal: Could not read from remote repository.
+20 error
+20 error Please make sure you have the correct access rights
+20 error and the repository exists.
+21 error If you need help, you may report this error at:
+21 error     <http://github.com/npm/npm/issues>
+22 verbose exit [ 1, true ]

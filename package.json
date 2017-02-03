@@ -1,0 +1,32 @@
+{
+  "name": "innovate413",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-requirejs": "^0.1.3",
+    "gulp-uglify": "^1.4.1"
+  },
+  "description": "The core of frontend modules. Includes infrastructure codebase (services, utilities, config, libraries), the base models, collections, views and templates of content, the base views of the skeleton (navbar, page, footer etc), the application controllers.",
+  "main": "main",
+  "dependencies": {
+    "fee": "git+ssh://git@github.com/sunergix/fee.git",
+    "gulp": "^3.9.0"
+  },
+  "scripts": {
+    "test": "gulp gulp-mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunergix/fee.git"
+  },
+  "author": "pixeledge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunergix/fee/issues"
+  },
+  "homepage": "https://github.com/sunergix/fee#readme"
+}
